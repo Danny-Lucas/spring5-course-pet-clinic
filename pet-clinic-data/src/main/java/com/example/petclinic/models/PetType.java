@@ -1,8 +1,12 @@
-package com.example.petclinic.model;
+package com.example.petclinic.models;
 
 public class PetType extends BaseEntity {
 
     private String name;
+
+    public PetType(String name) {
+        this.name = name;
+    }
 
     public String getName() {
         return name;

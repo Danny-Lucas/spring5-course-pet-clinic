@@ -1,4 +1,10 @@
 package com.example.petclinic.services.map;
 
-public class PetServiceMap {
+import com.example.petclinic.models.Pet;
+import com.example.petclinic.services.PetService;
+import org.springframework.stereotype.Service;
+
+@Service
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
+
 }

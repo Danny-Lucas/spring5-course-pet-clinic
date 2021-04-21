@@ -1,6 +1,6 @@
 package com.example.petclinic.services;
 
-import com.example.petclinic.model.Vet;
+import com.example.petclinic.models.Vet;
 
 import java.util.Set;
 

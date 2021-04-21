@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Vet Page</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+        </tr>
+        <tr th:each="vet: ${vets}">
+            <td th:text="${vet.id}" />
+            <td th:text="${vet.firstName}" />
+            <td th:text="${vet.lastName}" />
+        </tr>
+    </table>
+</body>
+</html>
